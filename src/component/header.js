@@ -1,4 +1,5 @@
-import React,{useState} from "react";
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
 // import image from "../img/ply.png";
 
 function MyHeader() {
@@ -22,7 +23,7 @@ const toggleDropdown = () => {
               <img
                 src="https://cdn.vectorstock.com/i/500p/33/06/coffee-cup-icon-vector-1083306.jpg"
                 alt="BBCK Cafe Logo"
-                class="musicImg"
+                className="musicImg"
               />
 
               <h1 className="ml-10">BBKC CHAICAFE</h1>
@@ -32,30 +33,30 @@ const toggleDropdown = () => {
                 id="navbarSupportedContent"
               >
                 <ul className="navbar-nav ml-auto">
-                  <li className="nav-item ">
-                    <a className="nav-link" href="/">
+                  <li className="nav-item">
+                    <Link className="nav-link" to="/">
                       Home
-                    </a>
+                    </Link>
                   </li>
-                  <li className="nav-item ">
-                    <a className="nav-link" href="/menu">
+                  <li className="nav-item">
+                    <Link className="nav-link" to="/menu">
                       Menu
-                    </a>
+                    </Link>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="/about">
+                    <Link className="nav-link" to="/about">
                       About
-                    </a>
+                    </Link>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="/contact">
+                    <Link className="nav-link" to="/contact">
                       Contact
-                    </a>
+                    </Link>
                   </li>
 
-                  <div class="dropdown  nav-item">
+                  <div className="dropdown nav-item">
                     <button
-                      class="btn  dropdown-toggle nav-link"
+                      className="btn dropdown-toggle nav-link"
                       type="button"
                       id="dropdownMenuButton"
                     
@@ -71,18 +72,18 @@ const toggleDropdown = () => {
                       }`}
                       aria-labelledby="dropdownMenuButton"
                     >
-                      <a class="dropdown-item" href="/reservation">
-                      Reservation
-                      </a>
-                      <a class="dropdown-item" href="/gallery">
-                      Gallery
-                      </a>
+                      <Link className="dropdown-item" to="/reservation">
+                        Reservation
+                      </Link>
+                      <Link className="dropdown-item" to="/gallery">
+                        Gallery
+                      </Link>
                     
                     </div>
                   </div>
                 </ul>
               </div>
-            </div>{" "}
+            </div>
           </div>
         </nav>
       </header>

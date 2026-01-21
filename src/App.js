@@ -14,11 +14,10 @@ import Gallery from './component/gallery';
 
 function App() {
   return (
-
     <div className="App">
-
-      <MyHeader />
       <Router>
+        <MyHeader />
+
         <Routes>
           <Route path="/" element={<Section1 />} />
           <Route path="/menu" element={<Menu />} />
@@ -28,10 +27,7 @@ function App() {
           <Route path="/gallery" element={<Gallery />} />
         </Routes>
       </Router>
-
     </div>
-
-
   );
 }
 
