@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/malviyadeepika18/cafeWebsite/static/css/main.9e5b70e8.css",
-    "main.js": "/malviyadeepika18/cafeWebsite/static/js/main.a86a373a.js",
+    "main.js": "/malviyadeepika18/cafeWebsite/static/js/main.9b9aa517.js",
     "static/js/787.28cb0dcd.chunk.js": "/malviyadeepika18/cafeWebsite/static/js/787.28cb0dcd.chunk.js",
     "static/media/banner img.jpg": "/malviyadeepika18/cafeWebsite/static/media/banner img.3d51e2610081617f061a.jpg",
     "static/media/dinner3.jpg": "/malviyadeepika18/cafeWebsite/static/media/dinner3.b4cdde6cdbb8cc211741.jpg",
@@ -25,11 +25,11 @@
     "static/media/logo.svg": "/malviyadeepika18/cafeWebsite/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/malviyadeepika18/cafeWebsite/index.html",
     "main.9e5b70e8.css.map": "/malviyadeepika18/cafeWebsite/static/css/main.9e5b70e8.css.map",
-    "main.a86a373a.js.map": "/malviyadeepika18/cafeWebsite/static/js/main.a86a373a.js.map",
+    "main.9b9aa517.js.map": "/malviyadeepika18/cafeWebsite/static/js/main.9b9aa517.js.map",
     "787.28cb0dcd.chunk.js.map": "/malviyadeepika18/cafeWebsite/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9e5b70e8.css",
-    "static/js/main.a86a373a.js"
+    "static/js/main.9b9aa517.js"
   ]
 }
