@@ -1,6 +1,6 @@
 {
   "name": "my-app",
-  "homepage": "https://malviyadeepika18.github.io/cafeWebsite/",
+  "homepage": "https://malviyadeepika18.github.io/cafeWebsite/build/index.html",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
