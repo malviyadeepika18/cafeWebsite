@@ -55,7 +55,8 @@ const handleFilterClick = (filterValue) => {
 
   return (
     <div>
-      <div className="container-fluid container-bg">
+      {/* <div className="container-bg"> */}
+      <div className="container-fluid container-bg ">
         <div className="container">
           <div className="row">
             <div className="col-md-12 d-flex flex-column justify-content-center align-items-center contentsetr">
@@ -288,7 +289,8 @@ const handleFilterClick = (filterValue) => {
         </div>
      <Footer/>
       </div>
-    </div>
+    
+    </div> 
   );
 };
 

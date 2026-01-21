@@ -1,5 +1,5 @@
 import React,{useState} from "react";
-import image from "../img/ply.png";
+// import image from "../img/ply.png";
 
 function MyHeader() {
 const[dropdownOpen ,setDropdownOpen]= useState(false)

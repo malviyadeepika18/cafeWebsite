@@ -68,6 +68,9 @@
     background-size: cover;
     background-position: center;
     height:632px;
+    background-repeat: no-repeat;
+
+  /* min-height: 100vh; */
     /* Add more background properties as needed */
   }
   .contentcolr{
